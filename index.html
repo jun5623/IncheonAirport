@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incheon Airport</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="menu_bar">
+        <h1 class="header_logo">
+            <a href="#"></a>
+        </h1>
+        <div class="header_btns">
+            <div class="language_btn">
+                <span>KOR</span>
+                <div>
+                    <button class="button"></button>
+                    <ul class="language">
+                        <li>korea</li>
+                        <li>english</li>
+                        <li>japan</li>
+                        <li>china</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="header_map"></button>
+            <div class="nav_box">
+                <button class="nav_button"></button>
+                <div class="nav_bar">
+                    <ul class="nav_content">
+                        <li>
+                            <span class="bold">운항정보</span>
+                            <ul class="nav_text">
+                                <li>항공편 검색</li>
+                                <li>화물 운항정보</li>
+                                <li>취항정보</li>
+                                <li>공항혼잡 예상도</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="bold">교통정보</span>
+                            <ul class="nav_text">
+                                <li>주차안내</li>
+                                <li>대중교통</li>
+                                <li>공항셔틀버스</li>
+                                <li>렌터카</li>
+                                <li>터미널간 이동</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="bold">공항시설</span>
+                            <ul class="nav_text">
+                                <li>공항지도</li>
+                                <li>면세점 쇼핑</li>
+                                <li>식음료</li>
+                                <li>전시 / 공연/ 체험</li>
+                                <li>환전소</li>
+                                <li>로봇 위치 지도</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="bold">고객소통</span>
+                            <ul class="nav_text">
+                                <li>고객센터</li>
+                                <li>공지사항</li>
+                                <li>이벤트</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 메뉴바 -->
+
+    <section class="main_content1">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/content1/background1.JPG" alt="background1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/content1/background2.jpg" alt="background1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/content1/background3.JPG" alt="background1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/content1/background4.jpg" alt="background1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/content1/background5.jpg" alt="background1">
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="header">
+                    <h2>출도착 항공편 검색</h2>
+                </div>
+                <div class="content">
+                    <div class="twobtns">
+                        <div class="btn">
+                            <div class="chois_button depart click">
+                                <span class="img"></span>
+                                출발
+                            </div>
+                            <div class="chois_button arrive">
+                                <span class="img"></span>
+                                도착
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ticket_week">
+                        <div class="content">
+                            <span class="week_img"></span>
+                            <input type="date" class="number" placeholder="날짜를 입력해주세요.">
+                        </div>
+                    </div>
+                    <div class="ticket_number">
+                        <div class="content">
+                            <span class="number_img"></span>
+                            <input type="text" class="number" placeholder="항공편명/목적지를 입력해주세요">
+                        </div>
+                    </div>
+                    <button id="search">항공편 검색</button>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="content">
+                    <span class="weather-icon"></span>
+                    <span class="temp"></span>
+                    <span class="date"></span>
+                    <span class="time"></span>
+                </div>
+            </div>
+            
+    </section>
+    <!-- 메인화면 -->
+
+    <section class="main_content2">
+            <div class="header">
+                <img src="./img/content2/header/icons.png" alt="icons">
+                <h2><span>Airport Guide</span><br>공항 가이드</h2>
+            </div>
+            <div class="container">
+                <a href="#">
+                    <img src="./img/content2/btns/btn1.png" alt="button">
+                    출입국 안내
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn2.png" alt="button">
+                    스마트 패스
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn3.png" alt="button">
+                    쇼핑
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn4.png" alt="button">
+                    제한물품
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn5.png" alt="button">
+                    공항지도
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn6.png" alt="button">
+                    입국장 면세
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn7.png" alt="button">
+                    교통 약자<br>서비스
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn8.png" alt="button">
+                    유실물 찾기
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn9.png" alt="button">
+                    주차 요금
+                </a>
+                <a href="#">
+                    <img src="./img/content2/btns/btn10.png" alt="button">
+                    이벤트
+                </a>
+            </div>
+    </section>
+    <!-- 가이드 메뉴 -->
+
+
+    <section class="main_content3">
+        <div class="tips">
+            <div class="header">
+                <h2><span>Tips for visitors</span><br>공항방문객을 위한 팁</h2>
+                <div class="img_box">
+                    <img src="./img/content3/header/image50.png" alt="tipsIcon"></img>
+                    <img src="./img/content3/header/image49.png" alt="tipsIcon"></img>
+                </div>
+            </div>
+            <ul class="container">
+                <li id="shopping">
+                    <a href="#">
+                        <h4>면세점 / 쇼핑 시설</h4>
+                        <span>Shopping</span>
+                    </a>
+                </li>
+                <li id="restaurant">
+                    <a href="#">
+                        <h4>식당 / 휴게시설</h4>
+                        <span>Restaurant</span>
+                    </a>
+                </li>
+                <li id="attractions">
+                    <a href="#">
+                        <h4>전시 / 공연 시설</h4>
+                        <span>Attractions</span>
+                    </a>
+                </li>
+                <li id="currency_exchange">
+                    <a href="#">
+                        <h4>환전소</h4>
+                        <span>currency exchange</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section class="main_content4">
+        <div class="flights_info">
+            <div class="header">
+                <h2><span>Flights info</span><br>항공편 안내</h2>
+                <img src="./img/content4/header/image51.png" alt="flights" id="flights_icon"></img>
+            </div>
+            <div class="container">
+                <div class="flights_button">
+                    <div>
+                        <button class="flights start chois">출발</button>
+                        <button class="flights end">도착</button>
+                    </div>
+                    <div class="time_box">
+                        <span class="date2"></span>
+                        <span class="time2"></span>
+                        <span>항공편</span>
+                    </div>
+                </div>
+                <table></table>
+                <div class="menu">
+                    <div class="flights_depart">
+                        <span >출발시간</span>
+                        <span>목적지</span>
+                        <span>운항편명/항공사</span>
+                        <span>터미널</span>
+                        <span>체크인 카운터</span>
+                        <span >탑승구</span>
+                        <span>출발현황</span>
+                    </div>
+                    <div class="flights_arrive">
+                        <span>도착시간</span>
+                        <span>출발지</span>
+                        <span>운항편명/항공사</span>
+                        <span>터미널</span>
+                        <span>도착게이트</span>
+                        <span>수하물</span>
+                        <span>입국장 출구</span>
+                        <span>도착현황</span>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="flights_depart">
+                        <ul>
+                            <li>
+                                <span class="depart_time">16:43</span>
+                                <span class="destination">도쿄/나리타(NRT)</span>
+                                <span class="airline">OZ106/아시아나항공</span>
+                                <span class="terminal">T1</span>
+                                <span class="checkin">A03-C34</span>
+                                <span class="gate">21</span>
+                                <span class="situation">출발</span>
+                            </li>
+                            <li>
+                                <span class="depart_time">16:33</span>
+                                <span class="destination">센프란시스코(SFO)</span>
+                                <span class="airline">UA7322/유나이티브항공</span>
+                                <span class="terminal">T1</span>
+                                <span class="checkin">A03-C34</span>
+                                <span class="gate">21</span>
+                                <span class="situation">지연</span>
+                            </li>
+                            <li>
+                                <span class="depart_time">16:00</span>
+                                <span class="destination">도쿄/나리타(NRT)</span>
+                                <span class="airline">LJ963/진에어</span>
+                                <span class="terminal">T2</span>
+                                <span class="checkin">G17-H20</span>
+                                <span class="gate">250</span>
+                                <span class="situation">출발</span>
+                            </li>
+                            <li>
+                                <span class="depart_time">16:05</span>
+                                <span class="destination">오사카/간사이(KIX)</span>
+                                <span class="airline">LJ239/진에어</span>
+                                <span class="terminal">T2</span>
+                                <span class="checkin">G17-H20</span>
+                                <span class="gate">251</span>
+                                <span class="situation">탑승마감</span>
+                            </li>
+                            <li>
+                                <span class="depart_time">15:09</span>
+                                <span class="destination">나고야(NGO)</span>
+                                <span class="airline">7C1203/제주항공</span>
+                                <span class="terminal">T1</span>
+                                <span class="checkin">L13-L36</span>
+                                <span class="gate">16</span>
+                                <span class="situation">탑승마감</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flights_arrive">
+                        <ul>
+                            <li>
+                                <span class="arrive_time">15:50</span>
+                                <span class="origin">우한(WUH)</span>
+                                <span class="airline">KE138/항공사</span>
+                                <span class="terminal">T2</span>
+                                <span class="gate">252</span>
+                                <span class="baggage">14</span>
+                                <span class="exit">B</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:00</span>
+                                <span class="origin">로마(FCO)</span>
+                                <span class="airline">TW406/티웨이항공</span>
+                                <span class="terminal">T2</span>
+                                <span class="gate">48</span>
+                                <span class="baggage">17</span>
+                                <span class="exit">E</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:01</span>
+                                <span class="origin">오이타(OIT)</span>
+                                <span class="airline">7C1812/제주항공</span>
+                                <span class="terminal">T1</span>
+                                <span class="gate">114</span>
+                                <span class="baggage">10</span>
+                                <span class="exit">C</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:11</span>
+                                <span class="origin">런던/히드로(LHR)</span>
+                                <span class="airline">KE908/대한항공</span>
+                                <span class="terminal">T2</span>
+                                <span class="gate">220</span>
+                                <span class="baggage">7</span>
+                                <span class="exit">A</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:13</span>
+                                <span class="origin">파리/샤를드골(CDG)</span>
+                                <span class="airline">KE902/대한항공</span>
+                                <span class="terminal">T2</span>
+                                <span class="gate">253</span>
+                                <span class="baggage">14</span>
+                                <span class="exit">B</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:23</span>
+                                <span class="origin">바르셀로나(BCN)</span>
+                                <span class="airline">TW408/티웨이항공</span>
+                                <span class="terminal">T1</span>
+                                <span class="gate">26</span>
+                                <span class="baggage">6</span>
+                                <span class="exit">B</span>
+                                <span class="situation">도착</span>
+                            </li>
+                            <li>
+                                <span class="arrive_time">16:30</span>
+                                <span class="origin">밀라노(MXP)</span>
+                                <span class="airline">KE928/대한항공</span>
+                                <span class="terminal">T2</span>
+                                <span class="gate">247</span>
+                                <span class="baggage">8</span>
+                                <span class="exit">A</span>
+                                <span class="situation">착륙</span>
+                            </li>
+                        </ul> 
+                    </div>    
+                    <div class="scroll_bar">
+                        <div id="scroll"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="main_content5">
+        <div class="parking">
+            <div class="header">
+                <h2><span>Parking Lot Status</span><br>주차현황</h2>
+                <img src="./img/content5/header/image52.png"></img>
+            </div>
+            <div class="container">
+                <div class="btns">
+                    <button class="passenger bombo">제1여객터미널</button>
+                    <button class="passenger">제2여객터미널</button>
+                </div>
+                <div class="parking_content">
+                    <h3>주차장 혼잡도</h3>
+                    <div class="btns">
+                        <button class="perking bongbu">단기주차장</button>
+                        <button class="perking">장기주차장</button>
+                    </div>
+                    <div class="parking_bombu">
+                        <div class="situation">
+                            <div class="content">
+                                <div class="txt"><h4>지상1층</h4><span>161대 가능</span></div>
+                                <span>
+                                    <div class="text01"></div>
+                                </span>
+                            </div>
+                            <div class="content">
+                                <div class="txt"><h4>지하1층</h4><span>201대 가능</span></div>
+                                <span>
+                                    <div class="text02"></div>
+                                </span>
+                            </div>
+                            <div class="content">
+                                <div class="txt"><h4>지하2층</h4><span>332대 가능</span></div>
+                                <span>
+                                    <div class="text03"></div>
+                                </span>
+                            </div>
+                            <div class="footer">
+                                <ul>
+                                    <li>매일 5시~8시,16~19시까지는 주차장 혼잡이 예상되므로 이용 시 참고하시기 바랍니다.</li>
+                                    <li>문의 : 인천국제공항 제 1여객터미널 주차상황실(032-741-7700)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <a href="#" id="parking">
+                                <h4>주차장 안내</h4>
+                                <span>Parking Lot Infomation</span>
+                                <img src="./img/content5/btns/parking_lot.png">
+                            </a>
+                            <a href="#" id="parking_Fee">
+                                <h4>주차요금</h4>
+                                <span>Parking Fee</span>
+                                <img src="./img/content5/btns/Parking_fee.png">
+                            </a>
+                            <a href="#" id="parking_Reservation">
+                                <h4>주차예약</h4>
+                                <span>Parking Reservation</span>
+                                <img src="./img/content5/btns/Parking_reservation.png">
+                            </a>
+                            <a href="#" id="valet_Parking">
+                                <h4>주차대행</h4>
+                                <span>Valet Parking</span>
+                                <img src="./img/content5/btns/valet_parking.png">
+                            </a>
+                            <a href="#" id="airport_Bus">
+                                <h4>공항셔틀버스</h4>
+                                <span>Airport Shuttle Bus</span>
+                                <img src="./img/content5/btns/bus.png">
+                            </a>
+                            <a href="#" id="car_Rental">
+                                <h4>렌터카</h4>
+                                <span>Car Rental</span>
+                                <img src="./img/content5/btns/rental_car.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="top">
+            <div class="call">
+                <h4>1577-2600</h4>
+                <div class="sns">
+                    <a href="#" id="facebook"></a>
+                    <a href="#" id="instagram"></a>
+                    <a href="#" id="youtube"></a>
+                    <a href="#" id="naver_blog"></a>
+                </div>
+                <p>
+                    제1 여객터미널 : 22382 인천시 중구 공항로 272<br>
+                    제2 여객터미널 : 22382 인천시 중구 제2터미널대로 446<br>
+                    인천국제공항공사 : 22382 인천시 중구 공항로 424번길 47
+                </p>
+            </div>
+            <div class="guide">
+                <div>
+                    <h4>인천국제공항</h4>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">영상정보처리기기 운영관리 방침</a>
+                    <a href="#">저작권보호정책</a>
+                    <a href="#">이메일주소 무단수집 거부</a>
+                    <a href="#">시각장애인 이용안내</a>
+                </div>
+                <div>
+                    <h4>인천국제공항공사</h4>
+                    <a href="#">물류서비스</a>
+                    <a href="#">복합도시개발</a>
+                    <a href="#">MRO</a>
+                    <a href="#">해외사업/교육</a>
+                    <a href="#">항공안전신고</a>
+                </div>
+                <div>
+                    <h4>맞춤형 서비스</h4>
+                    <a href="#">임산부/유아/어린이 동반</a>
+                    <a href="#">교통약자 동반</a>
+                    <a href="#">바녀동물 동반</a>
+                    <a href="#">고객의 소리</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="./img/footer/logo.png">
+            <div class="copyright">
+                <p>Copyright Incheon International Airport Corporation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
